@@ -1,0 +1,17 @@
+/*To caculate table of a given number*/
+
+
+#include<stdio.h>
+
+int main()
+{
+    int n,i;
+    int *ptr;
+    printf("Enter the number to you want the table:");
+    scanf("%d",&n);
+    printf("\n table of %d",n);
+    for(i=1;i<=10;i++)
+    {
+        printf("\n %d * %d =%d",n,i,(n*i));
+    }
+}
